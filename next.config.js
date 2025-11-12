@@ -17,12 +17,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   
-  // Performance optimizations
-  experimental: {
-    optimizeCss: true,
-    optimizePackageImports: ['react-icons'],
-  },
-  
   // Security headers
   async headers() {
     return [
